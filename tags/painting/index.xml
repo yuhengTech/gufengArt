@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>painting on 古风的画廊</title>
+    <link>/tags/painting/</link>
+    <description>Recent content in painting on 古风的画廊</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/painting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>油画 1</title>
+      <link>/%E8%8E%AB%E5%A5%881/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/%E8%8E%AB%E5%A5%881/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>油画 2</title>
+      <link>/%E8%8E%AB%E5%A5%882/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/%E8%8E%AB%E5%A5%882/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>油画 3</title>
+      <link>/%E8%8E%AB%E5%A5%883/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/%E8%8E%AB%E5%A5%883/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>油画 4</title>
+      <link>/%E8%8E%AB%E5%A5%884/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/%E8%8E%AB%E5%A5%884/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
