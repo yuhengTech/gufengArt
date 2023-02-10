@@ -1,4 +1,4 @@
-baseURL: 'https://gufeng.yuheng.tech/'  # todo: change site url.
+baseURL: 'https://gufeng.netlify.app/'  # todo: change site url.
 title: 古风的画廊 # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity
