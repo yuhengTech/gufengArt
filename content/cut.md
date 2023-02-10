@@ -1,6 +1,6 @@
 ---
 images:
-- /images/about.png
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/about.png
 title: cut
 url: cut
 hideTitle: true

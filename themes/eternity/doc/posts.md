@@ -9,7 +9,7 @@ If you want to create a new page, just add it as a new tag.
 ```yaml
 ---
 images:
-- /images/my-image-1.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-1.jpg
 title: Here's my first post!!
 tags:
 - work
@@ -22,7 +22,7 @@ You can set `date` value for your posts. It will be used in Post page and for po
 ---
 weight: 9
 images:
-- /images/my-image-1.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-1.jpg
 title: Here's my first post!!
 tags:
 - work
@@ -38,8 +38,8 @@ You can use multiple images by adding them to `images` array. Default view is `r
 ---
 weight: 9
 images:
-- /images/my-image-1.jpg
-- /images/my-image-2.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-1.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-2.jpg
 multipleColumn: true
 title: Here's my first post!!
 tags:
@@ -55,9 +55,9 @@ When you use multiple images, first image will be used as thumbnail in posts pag
 ---
 weight: 9
 images:
-- /images/my-image-1.jpg
-- /images/my-image-2.jpg
-mainImage: /images/different-image.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-1.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-2.jpg
+mainImage: https://gufengart.oss-cn-qingdao.aliyuncs.com/images/different-image.jpg
 multipleColumn: true
 title: Here's my first post!!
 tags:
@@ -73,8 +73,8 @@ If you want to hide exif value for a post, you can use `hideExif` variable. Also
 ---
 weight: 9
 images:
-- /images/my-image-1.jpg
-- /images/my-image-2.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-1.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-2.jpg
 multipleColumn: true
 title: Here's my first post!!
 tags:
@@ -90,7 +90,7 @@ You can use `title`, `subtitle`, `url` variables for the post.
 ```yaml
 ---
 images:
-- /images/about.png
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/about.png
 title: About!!
 subtitle: Here's who am I.
 url: me
@@ -106,8 +106,8 @@ Markdown is fully supported.
 ---
 weight: 9
 images:
-- /images/my-image-1.jpg
-- /images/my-image-2.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-1.jpg
+- https://gufengart.oss-cn-qingdao.aliyuncs.com/images/my-image-2.jpg
 multipleColumn: true
 title: Here's my first post!!
 tags:

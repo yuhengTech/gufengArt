@@ -5,7 +5,7 @@ theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
-  #image: /images/莫奈4.jpg
+  #image: https://gufengart.oss-cn-qingdao.aliyuncs.com/images/莫奈4.jpg
   subtitle: 此处存放古风作品的展示集 # todo: change default subtitle for your website.
   copyright: 所有作品版权均属于本人，未经许可禁止使用 # todo: set your copyright type.
   author: 古风 # todo: set your full name.

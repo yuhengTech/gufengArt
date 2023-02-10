@@ -7,7 +7,7 @@ You can use `title`, `subtitle` and `image` variables for your website. Same var
 title: Eternity
 params:
   subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel.
-  image: '/images/about.png`
+  image: 'https://gufengart.oss-cn-qingdao.aliyuncs.com/images/about.png`
 ```
 
 You can use `googleAnalytics` variable to set Analytics.
