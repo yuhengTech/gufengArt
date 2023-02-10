@@ -1,0 +1,74 @@
+baseURL:  # todo: change site url.
+title: 古风的画廊 # todo: change site name.
+defaultContentLanguage: 'en'
+theme: eternity
+googleAnalytics: '' # todo: set your analytics id.
+
+params:
+  #image: /images/莫奈4.jpg
+  subtitle: 此处存放古风作品的展示集 # todo: change default subtitle for your website.
+  copyright: 所有作品版权均属于本人，未经许可禁止使用 # todo: set your copyright type.
+  author: 古风 # todo: set your full name.
+  dontShowSource: true # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        nature: 4
+        archive: 6
+        people: 2
+        default: 3
+      mobile:
+        default: 2
+        archive: 3
+        people: 1
+  socials:
+    # todo: change these links.
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:1586295728@qq.com'
+      landing: true
+  homepage: "/work" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - work
+    - archive
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  plausible: '' # todo: set your plausible id.
+  disableRadius: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: 精选集
+      url: /work/
+      weight: 10
+    - name: 油画
+      url: /tags/painting/
+      weight: 20
+    - name: 插画
+      url: /tags/illustration/
+      weight: 30
+    - name: 书法
+      url: /tags/word/
+      weight: 40
+    - name: 摄影
+      url: /tags/photo/
+      weight: 50
+    - name: 剪辑
+      url: /cut/
+      weight: 60
+    - name: 归档
+      url: /tags/archive/
+      weight: 70
+    - name: 关于我
+      url: /about/
+      weight: 80
